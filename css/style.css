@@ -160,7 +160,7 @@ main { flex-grow: 1; }
 /* Certifications & Recognition specific */
 .cert-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: var(--spacing-lg);
 }
 
@@ -196,12 +196,25 @@ main { flex-grow: 1; }
 .cert-preview-frame img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain; /* Prevent cropping */
+    background: var(--surface); /* Fallback bg for contain */
     transition: var(--transition);
 }
 
 .cert-card:hover .cert-preview-frame img {
     transform: scale(1.05);
+}
+
+.cert-preview-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--surface);
+    color: var(--gold);
+    font-size: 3rem;
 }
 
 .cert-label {
