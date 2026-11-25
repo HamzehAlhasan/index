@@ -3,31 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Hamzeh Alhasan | Computer Science & Operations Support</title>
+    <meta name="description" content="Professional portfolio of Hamzeh Alhasan, a Computer Science student and technical specialist from Jordan.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Biography</h1>
-    <h2>Hamzeh Alhasan</h2>
-    <h3>Jordanian, born on July 19, 2004</h3><h4>If you want to know more about me </h4><a href="./aboutMe.html">click here</a>
-    <br>
-    <br>
-    <hr>
-    <p><h2>My CV </h2></p>
-    <img src="./CV.jpg" height="220" alt="MY CV">
-    <p>if you want full screen</p>
-    <a href="./fullscreen.html">click here</a>
-    <hr>
-    <br>
-    <h3>Some small projects I have done in different programming languages</h3>
-    <img src="./linked list.png" height="300" alt="linked list">
-    <p>if you want full screen</p>
-    <a href="./linked list.html">click here</a>
-    <hr>
-    <h4>That's all if you are interested and want to contact me </h4>
-    <p><a href="./contact.html">click here</a></p>
-    <h3>🫡Thank you for visiting my website🫡</h3>
-    <hr>
-    <p>© Hamzeh Alhasan. All rights reserved.</p>
 
+    <header class="site-header">
+        <div class="container nav-inner">
+            <a class="wordmark" href="./index.html">Hamzeh Alhasan</a>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="./index.html">Home</a>
+                <a href="./aboutMe.html">About</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="container hero">
+            <h1>Computer Science Student | Technical & Operations Support Specialist</h1>
+            <p>I'm a Computer Science student at Al-Balqa Applied University with practical experience in customer support, technical operations, and logistics. I've developed strong communication, problem-solving, and organizational skills while supporting customers and drivers across multiple digital channels.</p>
+            <p>Alongside my professional experience, I'm building my technical foundation in Java, C++, HTML, CSS, SQL, and database management. I'm passionate about technology and developing skills to contribute to meaningful digital solutions.</p>
+            <div class="hero-buttons">
+                <a class="btn btn-primary" href="./aboutMe.html">More About Me</a>
+                <a class="btn btn-secondary" href="./Hamzeh_Alhasan_CV.pdf" target="_blank">Download CV (PDF)</a>
+            </div>
+        </section>
+
+        <!-- Projects & CV Summary Section -->
+        <section class="container section-spacing">
+            <h2 class="section-heading">Projects & Resume</h2>
+            <div class="grid-2">
+                <article class="card">
+                    <h3>Technical Projects</h3>
+                    <p>Explore my technical projects, including implementations in Java, C++, and web technologies.</p>
+                    <a class="btn btn-secondary btn-sm" href="./linked list.html">View Projects</a>
+                </article>
+                <article class="card">
+                    <h3>Professional CV</h3>
+                    <p>Access my full resume to learn more about my background, education, and professional journey.</p>
+                    <div style="display: flex; gap: 0.5rem; margin-top: 1rem;">
+                        <a class="btn btn-primary btn-sm" href="./fullscreen.html">View CV</a>
+                        <a class="btn btn-secondary btn-sm" href="./Hamzeh_Alhasan_CV.pdf" download>Download</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Certifications & Recognition Section -->
+        <section class="container section-spacing" style="background: rgba(255, 255, 255, 0.5); border-radius: var(--radius);">
+            <h2 class="section-heading">Certifications & Recognition</h2>
+            <div class="grid-2">
+                <article class="card cert-card">
+                    <div class="cert-icon">📄</div> <!-- Document icon -->
+                    <h3>EnglishScore - B1 English Level</h3>
+                    <p>British Council</p>
+                    <div class="btn-group">
+                        <a class="btn btn-secondary btn-sm" href="./englishscore_certificate.pdf" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                        <a class="btn btn-secondary btn-sm" href="./englishscore_certificate.pdf" download>Download Certificate</a>
+                    </div>
+                </article>
+                <article class="card cert-card">
+                    <img src="./WhatsApp Image 2026-07-30 at 1.52.26 AM.jpeg" alt="Employee of the Month Recognition">
+                    <h3>Employee of the Month</h3>
+                    <p>Extensya - Recognition for excellence in performance and customer service.</p>
+                    <a class="btn btn-secondary btn-sm" href="./WhatsApp Image 2026-07-30 at 1.52.26 AM.jpeg" target="_blank">View Image</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2026 Hamzeh Alhasan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./js/main.js" defer></script>
 </body>
 </html>

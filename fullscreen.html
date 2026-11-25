@@ -3,14 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
+    <title>CV | Hamzeh Alhasan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Full screen</h1>
-<hr>
-<img src="./CV.jpg"height="680" alt="Full screen CV">
-<br>
-<hr>
-<p>© Hamzeh Alhasan. All rights reserved.</p>
+    <header class="site-header">
+        <div class="container nav-inner">
+            <a class="wordmark" href="./index.html">Hamzeh Alhasan</a>
+            <nav class="site-nav">
+                <a href="./index.html">Home</a>
+                <a href="./aboutMe.html">About</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container section-spacing">
+        <div class="card cv-viewer-card">
+            <h1>Professional CV</h1>
+            <p>You can view my resume below or download it using the button.</p>
+            <div style="margin: 2rem 0;">
+                <a class="btn btn-primary" href="./Hamzeh_Alhasan_CV.pdf" target="_blank">Open PDF in New Tab</a>
+                <a class="btn btn-secondary" href="./Hamzeh_Alhasan_CV.pdf" download>Download PDF</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2026 Hamzeh Alhasan. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./js/main.js" defer></script>
 </body>
 </html>

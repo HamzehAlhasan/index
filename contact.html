@@ -3,20 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contant me</title>
+    <title>Contact | Hamzeh Alhasan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Contant me</h1>
-    <hr>
-    <h3>My email : hamzehalhasan91@gmail.com</h3>
-    <h3>Phone Number : +962788255824</h3>
-    <h3>My location </h3> <a href="./location.html"><h3>here</h3></a>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <hr>
-    <p>© Hamzeh Alhasan. All rights reserved.</p>
+    <header class="site-header">
+        <div class="container nav-inner">
+            <a class="wordmark" href="./index.html">Hamzeh Alhasan</a>
+            <nav class="site-nav">
+                <a href="./index.html">Home</a>
+                <a href="./aboutMe.html">About</a>
+                <a href="./contact.html" class="is-active">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container section-spacing" style="max-width: 600px;">
+        <h1 class="section-heading">Get In Touch</h1>
+        <div class="card contact-info">
+            <p>I am always open to new opportunities and interesting discussions. Feel free to reach out through any of the channels below.</p>
+            <ul class="contact-list">
+                <li>
+                    <span class="contact-icon">📧</span>
+                    <div>
+                        <strong>Email:</strong><br>
+                        <a href="mailto:hamzehalhasan91@gmail.com">hamzehalhasan91@gmail.com</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="contact-icon">📱</span>
+                    <div>
+                        <strong>Phone:</strong><br>
+                        <a href="tel:+962788255824">+962788255824</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="contact-icon">📍</span>
+                    <div>
+                        <strong>Location:</strong><br>
+                        Irbid, Jordan
+                    </div>
+                </li>
+            </ul>
+            <div style="margin-top: 2rem; text-align: center;">
+                <a class="btn btn-primary" href="./location.html">View on Google Maps</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2026 Hamzeh Alhasan. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./js/main.js" defer></script>
 </body>
 </html>

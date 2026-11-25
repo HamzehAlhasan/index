@@ -3,20 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My location</title>
+    <title>Location | Hamzeh Alhasan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>My location </h1>
-    <a href="https://maps.app.goo.gl/wf9mEHkn5CjS2eWJ7"><h3>Location in Google map</h3></a>
-    <hr>
-    <img src="./My location.png" height="400" alt="MY location">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <hr>
-    <p>© Hamzeh Alhasan. All rights reserved.</p>
+    <header class="site-header">
+        <div class="container nav-inner">
+            <a class="wordmark" href="./index.html">Hamzeh Alhasan</a>
+            <nav class="site-nav">
+                <a href="./index.html">Home</a>
+                <a href="./aboutMe.html">About</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container section-spacing">
+        <div class="card location-card">
+            <h1>My Location</h1>
+            <p>Currently based in Irbid, Jordan.</p>
+            <div style="margin-top: 2rem;">
+                <a class="btn btn-primary" href="https://maps.app.goo.gl/qUgLFPZTLxhwVZZX9" target="_blank">View My Location on Google Maps</a>
+            </div>
+            <p style="margin-top: 2rem; color: var(--text-muted);">This link will open Google Maps in a new tab.</p>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2026 Hamzeh Alhasan. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./js/main.js" defer></script>
 </body>
 </html>

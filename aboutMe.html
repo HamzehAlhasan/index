@@ -3,23 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
+    <title>About | Hamzeh Alhasan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>About me</h1>
-    <hr>
-    <h2>Hamzeh Alhasan</h2>
-    <h3>Jordanian, born on July 19, 2004</h3>
-    <p>A person who loves learning and is very curious. He wants to know everything and how it works. His dream in life is to be proficient and skilled in everything. He loves electronic games and I love sports of all kinds, such as football and swimming. I aspire to become a professional web developer working in the best programming companies in the world. God willing, I will achieve my ambition. I am now learning C++ and Java. I have just finished learning HTML. Note that I was born on July 19, 2004, and today’s date is July 13, 2004, meaning I have almost completed my 21st year. I am now working in a customer service company, and I am currently on a six-day vacation. I am now at Al-Balqa University, Ajloun College. I have finished my third year, but I signed up and studied 59 hours of courses out of 133. I will continue to work and learn to see what I will achieve in the coming years. I want to return to this brief introduction when I am 25 years old and see what I have achieved. The last thing is, O God, pray and grant peace. May God bless our master Muhammad, may the best prayers and peace be upon him, and upon his family and companions.</p>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<hr>
-<p>© Hamzeh Alhasan. All rights reserved.</p>
+
+    <header class="site-header">
+        <div class="container nav-inner">
+            <a class="wordmark" href="./index.html">Hamzeh Alhasan</a>
+            <nav class="site-nav">
+                <a href="./index.html">Home</a>
+                <a href="./aboutMe.html" style="color: var(--accent);">About</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" style="padding: 3rem 0;">
+
+        <!-- Experience Section -->
+        <section style="margin-bottom: 4rem;">
+            <h2>Work Experience</h2>
+            <div class="card" style="margin-bottom: 1.5rem;">
+                <h3>Operations & Customer Support Specialist</h3>
+                <p style="color: var(--text-muted);">On Ride Drive – Jordan | August 2026 – Present</p>
+            </div>
+            <div class="card" style="margin-bottom: 1.5rem;">
+                <h3>Account & Email Specialist</h3>
+                <p style="color: var(--text-muted);">Nova Logistics Company – Irbid, Jordan | February 2025 – April 2025</p>
+            </div>
+            <div class="card">
+                <h3>Customer Service Representative</h3>
+                <p style="color: var(--text-muted);">Extensya – Jordan | July 2024 – September 2025</p>
+            </div>
+        </section>
+
+        <!-- Education & Skills -->
+        <section class="grid-2" style="margin-bottom: 4rem;">
+            <div class="card">
+                <h2>Education</h2>
+                <p><strong>Bachelor of Science in Computer Science</strong><br>
+                Al-Balqa Applied University – Ajloun College<br>
+                <em>Expected graduation: 2026/2027</em></p>
+                <p>Cumulative GPA: 2.98<br>
+                Latest semester GPA: 3.59<br>
+                Completed credit hours: 73/133</p>
+            </div>
+            <div class="card">
+                <h2>Technical Skills</h2>
+                <p><strong>Programming & Databases:</strong> Java, C++, HTML, CSS, SQL, Database Design.</p>
+                <p><strong>Tools & Platforms:</strong> Excel, CRM Systems, Email Management, AI Tools.</p>
+                <p><strong>Core Competencies:</strong> Customer Support, Technical Troubleshooting, Operations Support, Problem-solving.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer" style="padding: 2rem 0; text-align: center; color: var(--text-muted); font-size: 0.9rem; border-top: 1px solid var(--border);">
+        <div class="container">
+            <p>© 2026 Hamzeh Alhasan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./js/main.js" defer></script>
 </body>
 </html>
