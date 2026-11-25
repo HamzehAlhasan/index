@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamzeh Alhasan | Computer Science & Operations Support</title>
+    <title>Hamzeh Alhasan | Portfolio</title>
     <meta name="description" content="Professional portfolio of Hamzeh Alhasan, a Computer Science student and technical specialist from Jordan.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
@@ -14,7 +14,7 @@
         <div class="container nav-inner">
             <a class="wordmark" href="./index.html">Hamzeh Alhasan</a>
             <nav class="site-nav" aria-label="Main navigation">
-                <a href="./index.html">Home</a>
+                <a href="./index.html" class="is-active">Home</a>
                 <a href="./aboutMe.html">About</a>
                 <a href="./contact.html">Contact</a>
             </nav>
@@ -23,57 +23,96 @@
 
     <main>
         <!-- Hero Section -->
-        <section class="container hero">
-            <h1>Computer Science Student | Technical & Operations Support Specialist</h1>
-            <p>I'm a Computer Science student at Al-Balqa Applied University with practical experience in customer support, technical operations, and logistics. I've developed strong communication, problem-solving, and organizational skills while supporting customers and drivers across multiple digital channels.</p>
-            <p>Alongside my professional experience, I'm building my technical foundation in Java, C++, HTML, CSS, SQL, and database management. I'm passionate about technology and developing skills to contribute to meaningful digital solutions.</p>
-            <div class="hero-buttons">
-                <a class="btn btn-primary" href="./aboutMe.html">More About Me</a>
-                <a class="btn btn-secondary" href="./Hamzeh_Alhasan_CV.pdf" target="_blank">Download CV (PDF)</a>
+        <section class="container section-padding hero-section">
+            <div class="hero-desktop-grid">
+                <div class="hero-content fade-in-element">
+                    <span class="intro-label">Welcome to My Portfolio</span>
+                    <h1>Hamzeh Alhasan</h1>
+                    <p class="subtitle">Computer Science Student | Technical & Operations Support Specialist</p>
+                    <p class="text-secondary">I'm a Computer Science student at Al-Balqa Applied University with practical experience in customer support, technical operations, and logistics. I've developed strong communication, problem-solving, and organizational skills while supporting customers and drivers across multiple digital channels.</p>
+                    <p class="text-secondary">Alongside my professional experience, I'm building my technical foundation in Java, C++, HTML, CSS, SQL, and database management. I'm passionate about technology and developing skills to contribute to meaningful digital solutions.</p>
+                    <div class="hero-buttons">
+                        <a class="btn btn-primary" href="./aboutMe.html">More About Me</a>
+                        <a class="btn btn-secondary" href="./Hamzeh_Alhasan_CV.pdf" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a>
+                    </div>
+                </div>
+                <div class="hero-visual fade-in-element">
+                    <span class="ha-monogram">HA</span>
+                </div>
             </div>
         </section>
 
-        <!-- Projects & CV Summary Section -->
-        <section class="container section-spacing">
-            <h2 class="section-heading">Projects & Resume</h2>
-            <div class="grid-2">
-                <article class="card">
-                    <h3>Technical Projects</h3>
-                    <p>Explore my technical projects, including implementations in Java, C++, and web technologies.</p>
-                    <a class="btn btn-secondary btn-sm" href="./linked list.html">View Projects</a>
-                </article>
-                <article class="card">
-                    <h3>Professional CV</h3>
-                    <p>Access my full resume to learn more about my background, education, and professional journey.</p>
-                    <div style="display: flex; gap: 0.5rem; margin-top: 1rem;">
-                        <a class="btn btn-primary btn-sm" href="./fullscreen.html">View CV</a>
-                        <a class="btn btn-secondary btn-sm" href="./Hamzeh_Alhasan_CV.pdf" download>Download</a>
-                    </div>
-                </article>
+        <!-- Featured Skills Section -->
+        <section class="container section-padding">
+            <h2 class="section-heading fade-in-element">My Core Skills</h2>
+            <div class="grid-3">
+                <div class="card fade-in-element">
+                    <h3>Programming & Databases</h3>
+                    <ul class="skill-list">
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SQL</li>
+                        <li>Database Design</li>
+                    </ul>
+                </div>
+                <div class="card fade-in-element">
+                    <h3>Technical & Operations Support</h3>
+                    <ul class="skill-list">
+                        <li>Technical Troubleshooting</li>
+                        <li>Customer Support</li>
+                        <li>Operations Support</li>
+                        <li>Workflow Optimization</li>
+                    </ul>
+                </div>
+                <div class="card fade-in-element">
+                    <h3>Professional & Soft Skills</h3>
+                    <ul class="skill-list">
+                        <li>Communication</li>
+                        <li>Problem-solving</li>
+                        <li>Organization</li>
+                        <li>Complaint Management</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Project Section -->
+        <section class="container section-padding">
+            <h2 class="section-heading fade-in-element">Featured Project</h2>
+            <div class="card project-detail-card fade-in-element">
+                <h3 style="color: var(--primary);">Linked List Visualization</h3>
+                <img src="./linked list.png" alt="Linked list data structure visualization">
+                <p class="text-secondary">This project demonstrates a visual representation of a linked list data structure, showcasing my understanding of fundamental computer science concepts.</p>
+                <a class="btn btn-primary" href="./linked list.html">View Project Details</a>
             </div>
         </section>
 
         <!-- Certifications & Recognition Section -->
-        <section class="container section-spacing" style="background: rgba(255, 255, 255, 0.5); border-radius: var(--radius);">
-            <h2 class="section-heading">Certifications & Recognition</h2>
+        <section class="container section-padding" style="background: var(--surface); border-radius: var(--radius);">
+            <h2 class="section-heading fade-in-element">Certifications & Recognition</h2>
             <div class="grid-2">
-                <article class="card cert-card">
-                    <div class="cert-icon">📄</div> <!-- Document icon -->
+                <article class="card cert-card fade-in-element">
+                    <div class="cert-icon">📄</div>
                     <h3>EnglishScore - B1 English Level</h3>
-                    <p>British Council</p>
+                    <p class="text-muted">British Council</p>
                     <div class="btn-group">
                         <a class="btn btn-secondary btn-sm" href="./englishscore_certificate.pdf" target="_blank" rel="noopener noreferrer">View Certificate</a>
                         <a class="btn btn-secondary btn-sm" href="./englishscore_certificate.pdf" download>Download Certificate</a>
                     </div>
                 </article>
-                <article class="card cert-card">
-                    <img src="./WhatsApp Image 2026-07-30 at 1.52.26 AM.jpeg" alt="Employee of the Month Recognition">
+                <article class="card cert-card fade-in-element">
+                    <div class="cert-icon">🏆</div> <!-- Trophy icon for recognition -->
                     <h3>Employee of the Month</h3>
-                    <p>Extensya - Recognition for excellence in performance and customer service.</p>
-                    <a class="btn btn-secondary btn-sm" href="./WhatsApp Image 2026-07-30 at 1.52.26 AM.jpeg" target="_blank">View Image</a>
+                    <p class="text-muted">Extensya - Recognition for excellence in performance and customer service.</p>
+                    <div class="btn-group">
+                        <a class="btn btn-secondary btn-sm" href="./WhatsApp Image 2026-07-30 at 1.52.26 AM.jpeg" target="_blank" rel="noopener noreferrer">View Image</a>
+                    </div>
                 </article>
             </div>
         </section>
+
     </main>
 
     <footer class="site-footer">
@@ -82,6 +121,7 @@
         </div>
     </footer>
 
+    <button class="scroll-to-top" aria-label="Scroll to top">&uarr;</button>
     <script src="./js/main.js" defer></script>
 </body>
 </html>

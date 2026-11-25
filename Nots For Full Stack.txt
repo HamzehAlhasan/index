@@ -1,0 +1,63 @@
+https://developer.mozilla.org/en-US/docs/Web/CSS/named-color    CSS information
+https://colorhunt.co/  Color Hunt
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ tricks CSS flexbox
+
+3 Type of writing CSS :
+
+1- inline as will as HTML in <h1 style="color: blue;"
+
+2- internal you write the code between the head like this :
+
+<head>
+  <meta charset="UTF-8">
+  <title>Colors</title>
+  <style>
+    h2 {
+      color: #FAF8F1;
+      background-color: #C58940;
+    }
+  </style>
+</head>
+
+3-External you write the code outside the HTML code in file name as will as hamzeh.css like this 
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+but Don't forget this in head :
+
+ <link rel="stylesheet" href="./style.css" />
+          [ name of CSS ]   [ the source of file ] 
+
+There many method to write code in CSS in External as will as :
+
+1- about name of class as will as 
+
+<h2 class="color-title">Rojo</h2>
+
+.color-title{
+    font-weight: normal;   // ( we write in file.css (.) thin the name of class like this .color-title )
+} 
+
+
+2- about id of code like this 
+
+ <h2 id="blue">Azul</h2>
+
+#blue{
+    color: blue;          // ( we write in file.css (#) then the name of id like this #blue )
+}
+
+3- about the attribute of code like this 
+
+<li value="3">ID selectors target elements based on the value of the id attribute</li>
+
+li[value="4"]{
+  color: blue;   // ( we write in file.css (the attribute and in this code we got a ( li[] )) then inside the li[value] a value and number of value like this li[value="4"]
+  
+}
+
+
+

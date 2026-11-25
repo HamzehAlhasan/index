@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Hamzeh Alhasan</title>
+    <meta name="description" content="Learn more about Hamzeh Alhasan: his professional background, education, technical skills, and core competencies.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -12,55 +13,123 @@
     <header class="site-header">
         <div class="container nav-inner">
             <a class="wordmark" href="./index.html">Hamzeh Alhasan</a>
-            <nav class="site-nav">
+            <nav class="site-nav" aria-label="Main navigation">
                 <a href="./index.html">Home</a>
-                <a href="./aboutMe.html" style="color: var(--accent);">About</a>
+                <a href="./aboutMe.html" class="is-active">About</a>
                 <a href="./contact.html">Contact</a>
             </nav>
         </div>
     </header>
 
-    <main class="container" style="padding: 3rem 0;">
+    <main class="container section-padding">
+        <h1 class="section-heading">About Me</h1>
 
-        <!-- Experience Section -->
-        <section style="margin-bottom: 4rem;">
-            <h2>Work Experience</h2>
-            <div class="card" style="margin-bottom: 1.5rem;">
-                <h3>Operations & Customer Support Specialist</h3>
-                <p style="color: var(--text-muted);">On Ride Drive – Jordan | August 2026 – Present</p>
-            </div>
-            <div class="card" style="margin-bottom: 1.5rem;">
-                <h3>Account & Email Specialist</h3>
-                <p style="color: var(--text-muted);">Nova Logistics Company – Irbid, Jordan | February 2025 – April 2025</p>
-            </div>
-            <div class="card">
-                <h3>Customer Service Representative</h3>
-                <p style="color: var(--text-muted);">Extensya – Jordan | July 2024 – September 2025</p>
+        <p class="about-intro text-secondary fade-in-element">
+            I'm a Computer Science student at Al-Balqa Applied University with practical experience in customer support, technical operations, and logistics. I'm passionate about technology, continuous learning, and developing my skills to contribute to meaningful digital solutions.
+        </p>
+
+        <!-- Work Experience -->
+        <section class="fade-in-element" style="margin-bottom: var(--spacing-xxl);">
+            <h2 style="text-align: center;">Work Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <h3>Operations & Customer Support Specialist</h3>
+                    <p class="duration">On Ride Drive – Jordan | August 2026 – Present</p>
+                    <ul class="text-secondary">
+                        <li>Provided comprehensive technical and operational support to customers and drivers.</li>
+                        <li>Managed logistics and addressed service-related inquiries through multiple digital channels.</li>
+                        <li>Contributed to optimizing workflow processes for improved efficiency.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Account & Email Specialist</h3>
+                    <p class="duration">Nova Logistics Company – Irbid, Jordan | February 2025 – April 2025</p>
+                    <ul class="text-secondary">
+                        <li>Handled customer accounts and managed email communications for logistics operations.</li>
+                        <li>Ensured timely and accurate information exchange with clients and partners.</li>
+                        <li>Assisted in resolving account-related issues and maintaining customer satisfaction.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Customer Service Representative</h3>
+                    <p class="duration">Extensya – Jordan | July 2024 – September 2025</p>
+                    <ul class="text-secondary">
+                        <li>Resolved customer inquiries and complaints with efficiency and professionalism.</li>
+                        <li>Provided comprehensive support across various service areas.</li>
+                        <li>Maintained high levels of customer satisfaction and adherence to service standards.</li>
+                    </ul>
+                </div>
             </div>
         </section>
 
         <!-- Education & Skills -->
-        <section class="grid-2" style="margin-bottom: 4rem;">
-            <div class="card">
+        <section class="grid-2 fade-in-element">
+            <div class="card education-section">
                 <h2>Education</h2>
-                <p><strong>Bachelor of Science in Computer Science</strong><br>
-                Al-Balqa Applied University – Ajloun College<br>
-                <em>Expected graduation: 2026/2027</em></p>
-                <p>Cumulative GPA: 2.98<br>
-                Latest semester GPA: 3.59<br>
-                Completed credit hours: 73/133</p>
+                <p>
+                    <strong>Bachelor of Science in Computer Science</strong><br>
+                    Al-Balqa Applied University – Ajloun College<br>
+                    <em>Expected graduation: 2026/2027</em>
+                </p>
+                <p class="text-secondary">
+                    Cumulative GPA: 2.98<br>
+                    Latest semester GPA: 3.59<br>
+                    Completed credit hours: 73/133
+                </p>
+                <h4 style="margin-top: var(--spacing-lg);">Relevant Coursework:</h4>
+                <ul class="text-secondary" style="list-style: none; padding: 0;">
+                    <li>• Database Design & Management</li>
+                    <li>• Java Programming</li>
+                    <li>• Object-Oriented Programming (C++)</li>
+                    <li>• Data Structures & Algorithms</li>
+                    <li>• Computer Networks</li>
+                    <li>• Discrete Mathematics</li>
+                </ul>
             </div>
-            <div class="card">
-                <h2>Technical Skills</h2>
-                <p><strong>Programming & Databases:</strong> Java, C++, HTML, CSS, SQL, Database Design.</p>
-                <p><strong>Tools & Platforms:</strong> Excel, CRM Systems, Email Management, AI Tools.</p>
-                <p><strong>Core Competencies:</strong> Customer Support, Technical Troubleshooting, Operations Support, Problem-solving.</p>
+
+            <div class="card skills-section">
+                <h2>Skills & Competencies</h2>
+
+                <div class="skill-category">
+                    <h3>Programming & Databases</h3>
+                    <ul class="skill-list">
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SQL</li>
+                        <li>Database Design & Management</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <ul class="skill-list">
+                        <li>Microsoft Excel</li>
+                        <li>CRM Systems</li>
+                        <li>Email Management</li>
+                        <li>Data Entry</li>
+                        <li>AI Tools</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Core Competencies</h3>
+                    <ul class="skill-list">
+                        <li>Customer Support</li>
+                        <li>Technical Troubleshooting</li>
+                        <li>Operations Support</li>
+                        <li>Communication</li>
+                        <li>Complaint Management</li>
+                        <li>Problem-solving</li>
+                        <li>Workflow Optimization</li>
+                    </ul>
+                </div>
             </div>
         </section>
-
     </main>
 
-    <footer class="site-footer" style="padding: 2rem 0; text-align: center; color: var(--text-muted); font-size: 0.9rem; border-top: 1px solid var(--border);">
+    <footer class="site-footer">
         <div class="container">
             <p>© 2026 Hamzeh Alhasan. All rights reserved.</p>
         </div>
