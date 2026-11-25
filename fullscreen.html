@@ -21,11 +21,17 @@
 
     <main class="container section-padding">
         <div class="card cv-viewer-card fade-in-element">
-            <h1 style="color: var(--text-primary);">Professional CV</h1>
-            <p class="text-secondary" style="margin-bottom: var(--spacing-xl);">To view and download my complete resume, click the buttons below or open the PDF directly.</p>
-            <div style="margin-bottom: var(--spacing-xl);">
+            <h1>Professional CV</h1>
+            <p class="text-secondary" style="margin-bottom: var(--spacing-xl);">You can view my resume below, open it in a new tab, or download it for offline use.</p>
+
+            <div style="margin-bottom: var(--spacing-xl); display: flex; gap: var(--spacing-sm); justify-content: center; flex-wrap: wrap;">
                 <a class="btn btn-primary" href="./Hamzeh_Alhasan_CV.pdf" target="_blank" rel="noopener noreferrer">Open PDF in New Tab</a>
                 <a class="btn btn-secondary" href="./Hamzeh_Alhasan_CV.pdf" download>Download PDF</a>
+            </div>
+
+            <div class="pdf-container" style="margin-top: var(--spacing-xl);">
+                <embed src="./Hamzeh_Alhasan_CV.pdf" type="application/pdf" width="100%" height="800px" style="border: 1px solid var(--border); border-radius: var(--radius);">
+                <p class="text-muted" style="margin-top: var(--spacing-md); font-size: 0.9rem;">If the PDF viewer doesn't display, please use the "Open PDF in New Tab" button above.</p>
             </div>
         </div>
     </main>
